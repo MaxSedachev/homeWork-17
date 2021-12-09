@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+  position: relative;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: rgb(99, 210, 243);
+}
+h1 {
+  color: white;
+}
+.logo {
+  padding: 23px 1rem 1rem 1rem;
+}
+.navigation {
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+a {
+  margin: 1rem;
+  color: white;
+}
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-image: url("./blue-sky-and-clouds.jpg");
+  background-size: 2000px 1000px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(99, 210, 243);
+}
