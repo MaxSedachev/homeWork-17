@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    "jest/globals": false,
+    // "jest/globals": false,
   },
   extends: ["airbnb-base", "prettier"],
   parserOptions: {
