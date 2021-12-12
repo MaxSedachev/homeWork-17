@@ -23,7 +23,7 @@ h1 {
   padding: 23px 1rem 1rem 1rem;
 }
 .navigation {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -32,11 +32,20 @@ a {
   margin: 1rem;
   color: white;
 }
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
 main {
   display: flex;
   flex-wrap: nowrap;
+  flex: 1 0 auto;
   justify-content: space-between;
-  background-image: url("./blue-sky-and-clouds.jpg");
+  background-image: url("./img/blue-sky-and-clouds.jpg");
   background-size: 2000px 1000px;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -44,7 +53,17 @@ main {
 .footer {
   display: flex;
   flex-wrap: nowrap;
+  flex: 0 0 auto;
   justify-content: space-between;
   align-items: baseline;
   background-color: rgb(99, 210, 243);
+}
+.first-column,
+.third-column,
+.reviews,
+.contacts,
+.blog,
+.faq,
+.second-column {
+  padding: 1rem;
 }
