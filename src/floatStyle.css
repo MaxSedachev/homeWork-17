@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+  position: relative;
+  box-sizing: border-box;
+}
+header {
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%;
+}
+span {
+  display: inline;
+  padding: 23px 1rem 1rem 1rem;
+  float: left;
+}
+nav {
+  display: inline;
+  padding: 1rem 1rem 1rem 1rem;
+  float: right;
+}
+a {
+  display: inline-block;
+  height: 3rem;
+  padding: 1rem;
+  float: left;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.first-column {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  padding: 1rem;
+}
+.second-column {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding: 1rem;
+}
+div.article {
+  display: inline-block;
+  width: 100%;
+}
+.first-article {
+  display: block;
+  width: 100%;
+}
+.second-article {
+  display: block;
+  width: 100%;
+}
+.third-article {
+  display: block;
+  width: 100%;
+}
+.fourth-article {
+  display: block;
+  width: 100%;
+}
+.third-column {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  padding: 1rem;
+}
+div.footer {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 1rem;
+  flex: 0 0 auto;
+}
+.reviews {
+  display: inline;
+  width: 25%;
+  float: left;
+}
+.contacts {
+  display: inline;
+  width: 25%;
+  float: left;
+}
+.blog {
+  display: inline;
+  width: 25%;
+  float: left;
+}
+.faq {
+  display: inline;
+  width: 25%;
+  float: left;
+}
