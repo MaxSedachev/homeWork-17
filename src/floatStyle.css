@@ -29,15 +29,28 @@ a {
   padding: 1rem;
   float: left;
 }
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
 .first-column {
   display: inline-block;
   width: 30%;
   float: left;
+  padding: 1rem;
 }
 .second-column {
   display: inline-block;
   width: 40%;
   float: left;
+  padding: 1rem;
 }
 div.article {
   display: inline-block;
@@ -63,12 +76,15 @@ div.article {
   display: inline-block;
   width: 30%;
   float: left;
+  padding: 1rem;
 }
 div.footer {
   display: inline-block;
   width: 100%;
   float: left;
   text-align: center;
+  padding: 1rem;
+  flex: 0 0 auto;
 }
 .reviews {
   display: inline;
